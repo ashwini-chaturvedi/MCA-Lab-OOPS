@@ -1,3 +1,5 @@
+package Lab5;
+
 abstract class Shape{
     String color;
     Shape(String color) {
@@ -22,4 +24,7 @@ class Rectangle extends Shape{
 }
 
 public class Que5 {
+    public static void main(String[] args) {
+
+    }
 }

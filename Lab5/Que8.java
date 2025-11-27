@@ -1,3 +1,5 @@
+package Lab5;
+
 interface Flying{
     void fly();
 }
@@ -9,11 +11,11 @@ interface Swimming{
 class Duck implements Flying,Swimming{
     @Override
     public void fly() {
-        System.out.println("Duck flying");
+        System.out.println("Lab5.Duck flying");
     }
     @Override
     public void swim() {
-        System.out.println("Duck swimming");
+        System.out.println("Lab5.Duck swimming");
     }
 }
 public class Que8 {

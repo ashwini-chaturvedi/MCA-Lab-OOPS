@@ -1,3 +1,5 @@
+package Lab5;
+
 class Student{
     int studentID;
     String studentName;

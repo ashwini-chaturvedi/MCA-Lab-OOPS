@@ -1,3 +1,5 @@
+package Lab5;
+
 class DatabaseConnection {
     private static DatabaseConnection instance;
 

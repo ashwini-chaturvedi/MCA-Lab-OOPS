@@ -1,3 +1,5 @@
+package Lab5;
+
 class Employee{
     int id;
     String name;

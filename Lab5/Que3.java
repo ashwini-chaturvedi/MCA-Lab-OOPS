@@ -1,3 +1,5 @@
+package Lab5;
+
 class ComplexNumber{
     int realNumber;
     int imaginaryNumber;
@@ -6,7 +8,7 @@ class ComplexNumber{
         this.realNumber = realNumber;
         this.imaginaryNumber = imaginaryNumber;
         if(imaginaryNumber < 0 ) {
-            this.complexNumber=realNumber+"-"+imaginaryNumber+'i';
+            this.complexNumber=realNumber+""+imaginaryNumber+'i';
         }else{
             this.complexNumber=realNumber+"+"+imaginaryNumber+'i';
         }

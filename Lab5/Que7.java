@@ -1,3 +1,5 @@
+package Lab5;
+
 interface Shapes {
     double area();
 

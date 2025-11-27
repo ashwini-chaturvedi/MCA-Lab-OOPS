@@ -1,3 +1,5 @@
+package Lab5;
+
 class Polynomials {
     String polynomial = ""; // Initialize here
 
